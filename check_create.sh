@@ -1,7 +1,7 @@
 #!/bin/bash
-if [ $# -eq 0 ]
+if [ $# -ne 1 ]
 then
-	echo "You haven't provided any arguments!"
+	echo "You've done smthng wrong (no arguments, or more than one)!"
 else
 	if test -e $1
 	then
